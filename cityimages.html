@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TravelSite</title>
+        <style>
+            body{
+                font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding:20px 60px 20px 60px;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+            li{
+                margin-right: 20px; 
+            }
+            .icontext{
+                font-size: 20px;
+            }
+            #title{
+                font-size: 50px;
+                margin-left: 350px;
+            }
+            a{
+              text-decoration: none;
+            }
+            table
+            {
+                font-size: 15px;
+                margin: 0 auto;
+            }
+            th,td{
+                padding:0 6px 0 6px
+            }
+            .grid-container {
+                display:flex;
+                justify-content: center;
+                margin: 0 auto;
+            }
+            article{
+                padding: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+                <ul>
+                    <li class="icon"><a href="index.html">
+                            <img src="images/home.png" width="25px"/>
+                            <span class="icontext">Home</span>
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="cityimages.html">
+                            <img src="images/picture.png" type="png" width="25px"/>
+                            <span class="icontext">Photo Gallery</span>
+                        </a>
+                    </li>
+                    <li>
+                        <span id="title">Dindigul</span>  
+                    </li>
+                </ul>
+                  
+            <hr>
+        </header>
+        <main>
+            <article>
+                <div class="grid-container">
+                    <div class="grid-item">
+                      <img src="images/photo1.webp" alt="Photo 1" height="250px" width="500px">
+                    </div>
+                    <div class="grid-item">
+                      <img src="images/photo2.jpeg" alt="Photo 2" height="250px" width="500px">
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                      <img src="images/photo3.webp" alt="Photo 3" height="250px" width="500px">
+                    </div>
+                    <div class="grid-item">
+                      <img src="images/photo4.jpg" alt="Photo 4" height="250px" width="500px">
+                    </div>
+                </div>  
+            </article>
+            <hr>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pavithra G</td>
+                            <td>pavithra-gomthinay@pluralsight.com</td>
+                            <td>+91 7358924487</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </body>
+</html>
